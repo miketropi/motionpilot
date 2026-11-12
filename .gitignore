@@ -1,0 +1,19 @@
+# Do not commit user media, credentials, rendered videos or large voice models
+.DS_Store
+node_modules/
+.env
+.env.*
+!.env.example
+*.mp4
+*.mov
+*.mkv
+*.wav
+*.mp3
+*.flac
+*.onnx
+*.onnx.json
+renders/
+exports/
+output/
+tmp/
+.cache/
