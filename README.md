@@ -1,6 +1,6 @@
 # MotionPilot
 
-![MotionPilot — premium TUI-style Agent Skills feature banner](assets/motionpilot-tui-banner.svg)
+![MotionPilot — Agent Skills for video production](https://pub-0645c3b9d3674132af6b362484df0f3c.r2.dev/1279ce8b-4bf2-4a8b-b74d-c292ae841f69.png)
 
 **Comprehension-first video production skills for AI agents.** Turn authentic screen recordings and screenshots of web apps, SaaS dashboards, WordPress plugins, and other digital products into understandable, polished videos.
 
