@@ -1,46 +1,91 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="800" viewBox="0 0 1600 800" role="img" aria-labelledby="title desc">
-<title id="title">MotionPilot — Agent skills for comprehension-first video production</title>
-<desc id="desc">Minimal dark terminal user interface design showing MotionPilot's principle, seven video production skills, and the skills CLI installation command.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="720" viewBox="0 0 1600 720" role="img" aria-labelledby="title desc">
+<title id="title">MotionPilot — Agent Skills for clearer product videos</title>
+<desc id="desc">Minimal dark terminal banner with a playful pixel robot holding a clapperboard, short tagline, five focus keywords and the skills installation command.</desc>
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1016"/><stop offset="1" stop-color="#11151d"/></linearGradient>
-  <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#596077"/><stop offset="1" stop-color="#2c3342"/></linearGradient>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0e1118"/>
+    <stop offset="1" stop-color="#141723"/>
+  </linearGradient>
+  <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#c5b5fa"/>
+    <stop offset="1" stop-color="#9a84f0"/>
+  </linearGradient>
+  <linearGradient id="robot" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dedaf2"/>
+    <stop offset="1" stop-color="#a9a7c7"/>
+  </linearGradient>
+  <filter id="glow" x="-35%" y="-35%" width="170%" height="170%">
+    <feGaussianBlur stdDeviation="13"/>
+  </filter>
 </defs>
-<rect width="1600" height="800" fill="#090b0f"/>
-<rect x="30" y="28" width="1540" height="744" rx="18" fill="url(#bg)" stroke="#3d4556" stroke-width="2"/>
-<rect x="31" y="29" width="1538" height="62" rx="17" fill="#181c25"/>
-<path d="M31 91H1569" stroke="#3b4352" stroke-width="2"/>
-<g font-family="'SFMono-Regular','JetBrains Mono','Consolas',monospace" font-size="18" fill="#8b93a4">
-  <text x="82" y="68">~/miketropi/motionpilot</text><text x="1322" y="68">AGENT SKILLS</text>
-</g>
-<g font-family="'SFMono-Regular','JetBrains Mono','Consolas',monospace">
-  <text x="86" y="181" font-size="82" font-weight="700" fill="#eeeef4">Motion<tspan fill="#b7a1f4">Pilot</tspan></text>
-  <text x="88" y="239" font-size="25" fill="#b5b9c5">Comprehension-first video production skills.</text>
-  <text x="1316" y="213" font-size="21" fill="#8c94a8">v0.1.0</text>
-</g>
-<path d="M77 283H1522" stroke="url(#line)" stroke-width="2"/>
-<path d="M957 317V657" stroke="#303947" stroke-width="2"/>
-<g font-family="'SFMono-Regular','JetBrains Mono','Consolas',monospace">
-  <text x="87" y="343" font-size="22" font-weight="700" fill="#b7a1f4">01  PRINCIPLE</text>
-  <text x="87" y="423" font-size="38" font-weight="650" fill="#e9eaf0">Make product videos</text>
-  <text x="87" y="480" font-size="38" font-weight="650" fill="#e9eaf0">people actually understand.</text>
-  <text x="89" y="537" font-size="22" fill="#9da5b5">Storytelling, authentic UI, thoughtful motion,</text>
-  <text x="89" y="574" font-size="22" fill="#9da5b5">clear narration, and measurable quality.</text>
-  <text x="90" y="631" font-size="19" fill="#747e90">PLAN  /  COMPOSE  /  ANIMATE  /  AUDIO  /  QA</text>
-  <text x="1012" y="343" font-size="22" font-weight="700" fill="#b7a1f4">02  SKILLS  [07]</text>
-  <g font-size="22" fill="#dadde5">
-    <text x="1013" y="390"><tspan fill="#b7a1f4">+</tspan>  motionpilot</text>
-    <text x="1013" y="431"><tspan fill="#b7a1f4">+</tspan>  comprehension-first</text>
-    <text x="1013" y="472"><tspan fill="#b7a1f4">+</tspan>  product-ui-composition</text>
-    <text x="1013" y="513"><tspan fill="#b7a1f4">+</tspan>  responsive-video</text>
-    <text x="1013" y="554"><tspan fill="#b7a1f4">+</tspan>  motion-direction</text>
-    <text x="1013" y="595"><tspan fill="#b7a1f4">+</tspan>  audio-director</text>
-    <text x="1013" y="636"><tspan fill="#b7a1f4">+</tspan>  video-quality-assurance</text>
+<rect width="1600" height="720" fill="#090b10"/>
+<rect x="25" y="24" width="1550" height="672" rx="19" fill="url(#panel)" stroke="#3e4252" stroke-width="2"/>
+<path d="M25 89H1575" stroke="#353847" stroke-width="2"/>
+<circle cx="62" cy="56" r="9" fill="#7d6478"/>
+<circle cx="93" cy="56" r="9" fill="#9c865f"/>
+<circle cx="124" cy="56" r="9" fill="#547d69"/>
+<g font-family="'JetBrains Mono','SFMono-Regular','Cascadia Code','Consolas',monospace">
+  <text x="167" y="65" font-size="19" fill="#777c8b">~/motionpilot</text>
+  <text x="1385" y="65" font-size="18" letter-spacing="2.3" fill="#ad9bdc">AGENT SKILLS</text>
+
+  <!-- Brand identity and single-sentence message -->
+  <text x="106" y="203" font-size="23" letter-spacing="3.1" fill="#a995ea">[ VIDEO PRODUCTION ]</text>
+  <text x="100" y="315" font-size="95" font-weight="750" fill="#f5f4fa">Motion<tspan fill="url(#brand)">Pilot</tspan><tspan fill="#ab94f1">_</tspan></text>
+  <text x="108" y="382" font-size="36" fill="#bfc2cf">Make videos people understand.</text>
+
+  <!-- Focus as lightweight terminal tags, not a lengthy feature list -->
+  <g font-size="21" letter-spacing=".8">
+    <rect x="106" y="438" width="167" height="46" rx="8" fill="#1e202d" stroke="#474154"/>
+    <text x="126" y="468" fill="#d1c8ef">STORY</text>
+    <rect x="288" y="438" width="122" height="46" rx="8" fill="#1e202d" stroke="#474154"/>
+    <text x="312" y="468" fill="#d1c8ef">UI</text>
+    <rect x="425" y="438" width="172" height="46" rx="8" fill="#1e202d" stroke="#474154"/>
+    <text x="443" y="468" fill="#d1c8ef">MOTION</text>
+    <rect x="612" y="438" width="155" height="46" rx="8" fill="#1e202d" stroke="#474154"/>
+    <text x="632" y="468" fill="#d1c8ef">AUDIO</text>
+    <rect x="782" y="438" width="117" height="46" rx="8" fill="#1e202d" stroke="#474154"/>
+    <text x="811" y="468" fill="#d1c8ef">QA</text>
   </g>
 </g>
-<path d="M77 677H1522" stroke="url(#line)" stroke-width="2"/>
-<g font-family="'SFMono-Regular','JetBrains Mono','Consolas',monospace">
-  <text x="85" y="730" font-size="26" fill="#b7a1f4">$</text>
-  <text x="119" y="730" font-size="26" fill="#e9eaf0">npx skills add miketropi/motionpilot</text>
-  <text x="1319" y="731" font-size="17" fill="#858d9c">INSTALL</text>
+
+<!-- TUI mascot: chunky pixel terminal robot / pilot with a video clapperboard -->
+<g transform="translate(1123 128)">
+  <circle cx="185" cy="173" r="144" fill="#a58aff" opacity=".07"/>
+  <ellipse cx="190" cy="348" rx="169" ry="14" fill="#9d85e8" opacity=".11" filter="url(#glow)"/>
+  <!-- Small antenna -->
+  <path d="M174 56V24" fill="none" stroke="#c1b4e8" stroke-width="10" stroke-linecap="round"/>
+  <rect x="164" y="9" width="20" height="20" rx="4" fill="#ac96ee"/>
+  <!-- headset behind the shell -->
+  <path d="M79 161C79 40 303 38 303 161" fill="none" stroke="#8473bd" stroke-width="15" stroke-linecap="round"/>
+  <rect x="48" y="145" width="37" height="80" rx="14" fill="#a69ae0" stroke="#e6e1fb" stroke-width="5"/>
+  <rect x="299" y="145" width="37" height="80" rx="14" fill="#a69ae0" stroke="#e6e1fb" stroke-width="5"/>
+  <!-- 8-bit head -->
+  <path d="M98 88H278L295 107V255L275 274H102L83 254V108Z" fill="url(#robot)" stroke="#e3dffa" stroke-width="7" stroke-linejoin="round"/>
+  <rect x="105" y="113" width="169" height="127" rx="22" fill="#171a28" stroke="#6f6597" stroke-width="5"/>
+  <!-- eyes and smile -->
+  <rect x="143" y="156" width="22" height="23" rx="6" fill="#baa5f4"/>
+  <rect x="216" y="156" width="22" height="23" rx="6" fill="#baa5f4"/>
+  <path d="M158 202Q189 229 222 201" stroke="#baa5f4" fill="none" stroke-width="9" stroke-linecap="round"/>
+  <rect x="127" y="192" width="15" height="6" rx="3" fill="#855fae"/>
+  <rect x="238" y="192" width="15" height="6" rx="3" fill="#855fae"/>
+  <!-- tiny feet -->
+  <path d="M136 272V301L119 316H174V277" fill="#9090bb" stroke="#e4dff6" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M223 275V301L240 316H187V277" fill="#9090bb" stroke="#e4dff6" stroke-width="5" stroke-linejoin="round"/>
+  <!-- robot hand holding a simple clapperboard -->
+  <rect x="277" y="247" width="87" height="65" rx="7" fill="#201f32" stroke="#b6a7ed" stroke-width="6"/>
+  <path d="M280 253V266H359" stroke="#c9b8f7" stroke-width="7"/>
+  <path d="M287 257L302 268M318 256L335 268M347 256L360 265" stroke="#7562b1" stroke-width="6"/>
+  <path d="M308 280L324 292L308 304Z" fill="#b5a2f3"/>
+  <path d="M276 274L260 282" fill="none" stroke="#ded8f2" stroke-width="11" stroke-linecap="round"/>
+  <!-- small playful spark, not decorative overload -->
+  <path d="M348 113V126M341 120H355" stroke="#ac95ea" stroke-width="4" stroke-linecap="round"/>
+</g>
+
+<path d="M79 539H1520" stroke="#363847" stroke-width="2"/>
+<rect x="83" y="565" width="1435" height="90" rx="13" fill="#11141d" stroke="#454355" stroke-width="2"/>
+<g font-family="'JetBrains Mono','SFMono-Regular','Cascadia Code','Consolas',monospace" font-size="28">
+  <text x="118" y="620" fill="#ac97f1">$</text>
+  <text x="160" y="620" fill="#ecedf3">npx skills add miketropi/motionpilot</text>
+  <rect x="815" y="592" width="16" height="30" fill="#a78cf5"/>
 </g>
 </svg>
