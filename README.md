@@ -1,5 +1,7 @@
 # MotionPilot
 
+![MotionPilot — premium TUI-style Agent Skills feature banner](assets/motionpilot-tui-banner.svg)
+
 **Comprehension-first video production skills for AI agents.** Turn authentic screen recordings and screenshots of web apps, SaaS dashboards, WordPress plugins, and other digital products into understandable, polished videos.
 
 MotionPilot is a set of **Agent Skills**: production rules, shot-planning frameworks, motion patterns, audio direction, responsive composition, and quality gates. It is **not** a video renderer or a replacement for Remotion, FFmpeg, After Effects, or your editing tool.

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="800" viewBox="0 0 1600 800" role="img" aria-labelledby="title desc">
+<title id="title">MotionPilot — Agent skills for comprehension-first video production</title>
+<desc id="desc">Minimal dark terminal user interface design showing MotionPilot's principle, seven video production skills, and the skills CLI installation command.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1016"/><stop offset="1" stop-color="#11151d"/></linearGradient>
+  <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#596077"/><stop offset="1" stop-color="#2c3342"/></linearGradient>
+</defs>
+<rect width="1600" height="800" fill="#090b0f"/>
+<rect x="30" y="28" width="1540" height="744" rx="18" fill="url(#bg)" stroke="#3d4556" stroke-width="2"/>
+<rect x="31" y="29" width="1538" height="62" rx="17" fill="#181c25"/>
+<path d="M31 91H1569" stroke="#3b4352" stroke-width="2"/>
+<g font-family="'SFMono-Regular','JetBrains Mono','Consolas',monospace" font-size="18" fill="#8b93a4">
+  <text x="82" y="68">~/miketropi/motionpilot</text><text x="1322" y="68">AGENT SKILLS</text>
+</g>
+<g font-family="'SFMono-Regular','JetBrains Mono','Consolas',monospace">
+  <text x="86" y="181" font-size="82" font-weight="700" fill="#eeeef4">Motion<tspan fill="#b7a1f4">Pilot</tspan></text>
+  <text x="88" y="239" font-size="25" fill="#b5b9c5">Comprehension-first video production skills.</text>
+  <text x="1316" y="213" font-size="21" fill="#8c94a8">v0.1.0</text>
+</g>
+<path d="M77 283H1522" stroke="url(#line)" stroke-width="2"/>
+<path d="M957 317V657" stroke="#303947" stroke-width="2"/>
+<g font-family="'SFMono-Regular','JetBrains Mono','Consolas',monospace">
+  <text x="87" y="343" font-size="22" font-weight="700" fill="#b7a1f4">01  PRINCIPLE</text>
+  <text x="87" y="423" font-size="38" font-weight="650" fill="#e9eaf0">Make product videos</text>
+  <text x="87" y="480" font-size="38" font-weight="650" fill="#e9eaf0">people actually understand.</text>
+  <text x="89" y="537" font-size="22" fill="#9da5b5">Storytelling, authentic UI, thoughtful motion,</text>
+  <text x="89" y="574" font-size="22" fill="#9da5b5">clear narration, and measurable quality.</text>
+  <text x="90" y="631" font-size="19" fill="#747e90">PLAN  /  COMPOSE  /  ANIMATE  /  AUDIO  /  QA</text>
+  <text x="1012" y="343" font-size="22" font-weight="700" fill="#b7a1f4">02  SKILLS  [07]</text>
+  <g font-size="22" fill="#dadde5">
+    <text x="1013" y="390"><tspan fill="#b7a1f4">+</tspan>  motionpilot</text>
+    <text x="1013" y="431"><tspan fill="#b7a1f4">+</tspan>  comprehension-first</text>
+    <text x="1013" y="472"><tspan fill="#b7a1f4">+</tspan>  product-ui-composition</text>
+    <text x="1013" y="513"><tspan fill="#b7a1f4">+</tspan>  responsive-video</text>
+    <text x="1013" y="554"><tspan fill="#b7a1f4">+</tspan>  motion-direction</text>
+    <text x="1013" y="595"><tspan fill="#b7a1f4">+</tspan>  audio-director</text>
+    <text x="1013" y="636"><tspan fill="#b7a1f4">+</tspan>  video-quality-assurance</text>
+  </g>
+</g>
+<path d="M77 677H1522" stroke="url(#line)" stroke-width="2"/>
+<g font-family="'SFMono-Regular','JetBrains Mono','Consolas',monospace">
+  <text x="85" y="730" font-size="26" fill="#b7a1f4">$</text>
+  <text x="119" y="730" font-size="26" fill="#e9eaf0">npx skills add miketropi/motionpilot</text>
+  <text x="1319" y="731" font-size="17" fill="#858d9c">INSTALL</text>
+</g>
+</svg>
